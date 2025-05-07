@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    color: var(--gray-950);
+    text-decoration: none;
+    font-family: "Figtree", sans-serif;
+}
+
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --gray-500: hsl(0, 0%, 42%);
+    --gray-950: hsl(0, 0%, 7%);
+}
+
+body {
+    margin: 0;
+    background-color: var(--yellow);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.course-card {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
+    width: 350px;
+    border-radius: 20px;
+    border: 1px solid var(--gray-950);
+    box-shadow: 8px 8px 0px var(--gray-950);
+    transition: transform 0.3s ease;
+}
+
+.course-card:hover h1 {
+    transition: 0.5s;
+    color: var(--yellow);
+}
+
+.course-card:hover {
+    box-shadow: 16px 16px 0px var(--gray-950);
+    transition: 0.5s;
+    transform: scale(1.02);
+}
+
+.course-card>a>img {
+    height: 210px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.course-card .date {
+    font-size: 14px;
+    font-weight: 500;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.247);
+}
+
+.card-body {
+    text-align: left;
+}
+
+.card-body>h1 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.card-body .description {
+    color: var(--gray-500);
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+span {
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px 10px;
+    font-weight: 800;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user img {
+    height: 32px;
+    margin-right: 10px;
+}
+
+.user p {
+    font-size: 14px;
+    font-weight: 800;
+}
