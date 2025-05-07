@@ -16,7 +16,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: [Click Here](https://zingy-marigold-d0e1b5.netlify.app/)
+- Live Site URL: [Click Here](https://samuelalves006.github.io/preview-card/)
 
 ## My process
 
